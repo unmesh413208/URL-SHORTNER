@@ -1,0 +1,33 @@
+{
+  "name": "project_url_shortner",
+  "version": "1.0.0",
+  "description": "This project consists of two main APIs : 1st to create Short url documents and 2nd to get those docs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "nodemon": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrahim6231/project_URL_Shortner.git"
+  },
+  "keywords": [],
+  "author": "Jagdish M, Keerti Reddy, Unmesh Dhore & Ibrahim Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibrahim6231/project_URL_Shortner/issues"
+  },
+  "homepage": "https://github.com/Ibrahim6231/project_URL_Shortner#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "coarse": "^0.8.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nanoid": "^4.0.0",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
